@@ -13,7 +13,7 @@ A failure to match will present a dialog box.
 
 Multiple hits will present a selection list. Select one of the results and the link will be returned. 
 
-ex: The selected text `John Smith` will be replaced with [John Smith](addressbook://13927437-BB95-4C93-B8B6-F9D2764AF9BC:ABPerson)
+ex: The selected text `John Smith` will be replaced with `[John Smith](addressbook://13927437-BB95-4C93-B8B6-F9D2764AF9BC:ABPerson)`
 
 Wildcards are not supported however, the search assumes a "begin with" logic so `John S` is as if you were searching for John* S*. If you have only one John that has a last name that begins with S the link will be returned. If you have multiple combinations (Johnny Smith, John Smith, John Shapiro) they will all be returned. Jonathan Ive will not :-)
 
